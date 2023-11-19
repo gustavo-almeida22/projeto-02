@@ -97,6 +97,5 @@ mediaLinguagens = (mediaArte + mediaEspanhol + mediaIngles + mediaPortugues + me
 mediaCompleta = (mediaBiologia + mediaFisica + mediaQuimica + mediaFilosofia + mediaSociologia + mediaGeografia + mediaHistoria + mediaArte + mediaEspanhol + mediaIngles + mediaPortugues + mediaEdFisica + mediaMatematica)/13
 
 
-
-
+print(f'')
 
