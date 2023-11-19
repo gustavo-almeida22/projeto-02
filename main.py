@@ -80,18 +80,23 @@ mediaIngles = (li1 + li2 + li3 + li4)/4
 mediaEspanhol = (le1 + le2 + le3 + le4)/4
 mediaArte = (arte1 + arte2 + arte3 + arte4)/4
 mediaEdFisica = (edFis1 + edFis2 + edFis3 + edFis4)/4
-mediaGeografia = 
-mediaHistoria = 
-mediaFilosofia = 
-mediaSociologia = 
-mediaFisica = 
-mediaQuimica = 
-mediaBiologia = 
+mediaGeografia = (geo1 + geo2 + geo3 + geo4)/4
+mediaHistoria = (his1 + his2 + his3 + his4)/4
+mediaFilosofia = (fil1 + fil2 + fil3 + fil4)/4
+mediaSociologia = (soc1 + soc2 + soc3 + soc4)/4
+mediaFisica = (fis1 + fis2 + fis3 + fis4)/4
+mediaQuimica = (qui1 + qui2 + qui3 + qui4)/4
+mediaBiologia = (bio1 + bio2 + bio3 + bio4)/4
 
 
 # Média por área
 
-mediaNatureza = 
-mediaHumanas = 
-mediaLinguagens = 
-mediaCompleta = ()/13
+mediaNatureza = (mediaBiologia + mediaFisica + mediaQuimica)/3
+mediaHumanas = (mediaFilosofia + mediaSociologia + mediaGeografia + mediaHistoria)/4
+mediaLinguagens = (mediaArte + mediaEspanhol + mediaIngles + mediaPortugues + mediaEdFisica)/5
+mediaCompleta = (mediaBiologia + mediaFisica + mediaQuimica + mediaFilosofia + mediaSociologia + mediaGeografia + mediaHistoria + mediaArte + mediaEspanhol + mediaIngles + mediaPortugues + mediaEdFisica + mediaMatematica)/13
+
+
+
+
+
