@@ -3,12 +3,13 @@
 nome = str(input('Digite seu nome: '))
 alunoOuProf = str(input('Você é aluno ou professor? '))
 if alunoOuProf=='Aluno' or 'aluno':
-    print('''Olá, eu sou o programa feito para você aluno,
+    print(f'''Olá, {nome}. Eu sou o programa feito para você aluno,
 descobrir suas médias por área de conhecimento.''')
     print('Agora digite suas notas por período em cada matéria:')
 elif alunoOuProf=='professor' or 'Professor' or 'professora' or 'Professora':
-    print('''Olá, eu sou o programa feito para você professor(a),
+    print(f'''Olá, {nome}. Eu sou o programa feito para você professor(a),
 descobrir as médias por área de conhecimento de seus alunos.''')
+    aluno = str(input('Digite o nome do aluno: '))
     print('Agora digite as notas por período em cada matéria:')
 
 # Matérias
@@ -104,7 +105,7 @@ if alunoOuProf=='Aluno' or 'aluno':
     print(f'Ciências Humanas e Suas Tecnologias: {mediaHumanas}')
     print(f'Ciências da Natureza e Suas Tecnologias: {mediaNatureza}')
     print(f'Sua média GERAL é: {mediaCompleta}.')
-    
+
 elif alunoOuProf=='professor' or 'Professor' or 'professora' or 'Professora':
     print('As médias do aluno {aluno} por área são:')
     print(f'Matemática e Suas Tecnologias: {mediaMatematica}')
