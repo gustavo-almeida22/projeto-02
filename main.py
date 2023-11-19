@@ -96,6 +96,9 @@ mediaHumanas = (mediaFilosofia + mediaSociologia + mediaGeografia + mediaHistori
 mediaLinguagens = (mediaArte + mediaEspanhol + mediaIngles + mediaPortugues + mediaEdFisica)/5
 mediaCompleta = (mediaBiologia + mediaFisica + mediaQuimica + mediaFilosofia + mediaSociologia + mediaGeografia + mediaHistoria + mediaArte + mediaEspanhol + mediaIngles + mediaPortugues + mediaEdFisica + mediaMatematica)/13
 
+print('Suas médias por área são:')
 
-print(f'')
-
+if alunoOuProf=='Aluno' or 'aluno':
+    print(f'Matemática e Suas Tecnologias: {mediaMatematica}')
+    print(f'Linguagens, Códigos e Suas Tecnologias: {mediaLinguagens}')
+    print(f'')
