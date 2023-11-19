@@ -96,9 +96,19 @@ mediaHumanas = (mediaFilosofia + mediaSociologia + mediaGeografia + mediaHistori
 mediaLinguagens = (mediaArte + mediaEspanhol + mediaIngles + mediaPortugues + mediaEdFisica)/5
 mediaCompleta = (mediaBiologia + mediaFisica + mediaQuimica + mediaFilosofia + mediaSociologia + mediaGeografia + mediaHistoria + mediaArte + mediaEspanhol + mediaIngles + mediaPortugues + mediaEdFisica + mediaMatematica)/13
 
-print('Suas médias por área são:')
 
 if alunoOuProf=='Aluno' or 'aluno':
+    print('Suas médias por área são:')
     print(f'Matemática e Suas Tecnologias: {mediaMatematica}')
     print(f'Linguagens, Códigos e Suas Tecnologias: {mediaLinguagens}')
-    print(f'')
+    print(f'Ciências Humanas e Suas Tecnologias: {mediaHumanas}')
+    print(f'Ciências da Natureza e Suas Tecnologias: {mediaNatureza}')
+    print(f'Sua média GERAL é: {mediaCompleta}.')
+    
+elif alunoOuProf=='professor' or 'Professor' or 'professora' or 'Professora':
+    print('As médias do aluno {aluno} por área são:')
+    print(f'Matemática e Suas Tecnologias: {mediaMatematica}')
+    print(f'Linguagens, Códigos e Suas Tecnologias: {mediaLinguagens}')
+    print(f'Ciências Humanas e Suas Tecnologias: {mediaHumanas}')
+    print(f'Ciências da Natureza e Suas Tecnologias: {mediaNatureza}')
+    print(f'Média GERAL: {mediaCompleta}.')
